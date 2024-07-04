@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-
-def return_evens(num_list):
-    pass
-
-def make_exclamation(sentence_list):
-    pass
+# Inside list_comprehension.py in the lib folder
+def return_evens(sequence):
+    return [num for num in sequence if num % 2 == 0]
